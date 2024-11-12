@@ -1,0 +1,7 @@
+data/
+png/
+goodsn_3dhst_v4.1.5_catalogs/
+spectra-fitting.fits
+spectra-fitting_selected.fits
+spectra-fitting_selected_psfmatched.fits
+usage.ipynb
