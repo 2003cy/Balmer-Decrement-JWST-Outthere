@@ -4,7 +4,7 @@ Study Balmer decrement from JWST Outthere data
 This project attempts to study spatially resolved balmer decrement from JWST-Outthere data.
 
 
-The *work_flow* jupyter note book performs objects selection, downloading and extracting line maps from the existing data products of Outthere data sever. It also calculates PSFs for individual Ha Hb line maps as well as kernel to convolve hb psf to ha for acurate line maps
+The *work_flow* jupyter notebook performs objects selection, downloading and extracting line maps from the existing data products of Outthere data sever. It also calculates PSFs for individual Ha Hb line maps as well as kernel to convolve hb psf to ha for accurate line maps
 
 ## package requirement
 
@@ -35,7 +35,9 @@ What can be done in the future:
 
 (++)catalog crossmatching + mass catalog matching from 3D-HST for uma-03 field
 
-(+) diagramm plot (e.g. balmer decrement, EW against mass SFR)
+(++) matching psf kernel sensitive to psfs' high freq noise, window function needs to be tweaked
+
+(+) diagram plot (e.g. balmer decrement, EW against mass SFR)
 
 (+) Ha line maps rescaling to correct for NII line emission
 
