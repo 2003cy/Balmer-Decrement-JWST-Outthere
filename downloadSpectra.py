@@ -14,14 +14,14 @@ def download_spectrum(extract,home_path, remote, password):
     """Download product from remote server."""
 
     # Product name
-    field = extract['field']
+    field = extract['field'] 
 
     # Remote URL
     remote_url = f'{remote}/{field}/spectra'
 
     # Files
     id = 'id'
-    files = [f'{field}_{str(extract[id]).zfill(5)}.full.fits']
+    files = [f'{field}_{str(extract[id]).zfill(5)}.1D.fits'] #'1D,'field'
 
     # Execute command
     for file in files:
@@ -31,13 +31,13 @@ def download_spectrum(extract,home_path, remote, password):
             '-u',
             f'outthere:{password}',
             '-o',
-            f'data\\{field}\\{file}',
+            f'data/{field}/{file}',
             f'{remote_url}/{file}',
         ]
 
-        if os.path.exists(f'data\\{field}\\{file}'):
-            print(f'{file}exist')
-            continue
+        #if os.path.exists(f'data\\{field}\\{file}'):
+        #    print(f'{file}exist')
+        #    continue
 
         try:
             subprocess.run(command, check=True)
