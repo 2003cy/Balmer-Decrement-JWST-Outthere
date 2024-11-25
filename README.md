@@ -23,24 +23,24 @@ Most primitive function is realized, incl.
 
 What can be done in the future:
 
-(+++) SFMS plot on going, theoretical model[Whitaker 2014](https://iopscience.iop.org/article/10.1088/0004-637X/795/2/104/pdfhttps://iopscience.iop.org/article/10.1088/0004-637X/795/2/104/pdf) needed
+(+++) SFMS plot on going: theoretical model[Whitaker 2014](https://iopscience.iop.org/article/10.1088/0004-637X/795/2/104/pdfhttps://iopscience.iop.org/article/10.1088/0004-637X/795/2/104/pdf) needed
 
 (+++) matching psf kernel sensitive to psfs' high freq noise, window function needs to be tweaked
+
+(+++) the result from balmer decrement radial needs optimization
+
+(++) calculate theoretical galaxy mass using SED fitting from dense basis (especially for other fields with no 3DHST/photometry) [Matharu 2023](https://iopscience.iop.org/article/10.3847/2041-8213/acd1db/pdf)
+
+(+) 1D(not spatially resolved) diagram plot (e.g. balmer decrement, EW against mass SFR)
+
+(+) Ha line maps rescaling to correct for NII line emission [paper](https://iopscience.iop.org/article/10.1088/0004-637X/792/1/75/pdf)
+
 
 [\\]:~~(!!!! just found) Position angle is not given in the final data product, it is recommended to average over PSFs of all possible possible angles in [this paper](https://doi.org/10.3847/2041-8213/ad28bd)~~ 
 
 ~~(+++) use weight map in the data products to generate variance map for error propagation~~
 
-(+++) the result from balmer decrement radial needs optimization
-
-(++)alternative method found? [Prospector SED fitting](https://arxiv.org/pdf/2404.17629)
-
-(++) calculate theoretical galaxy mass using SED fitting from dense basis (especially for other fields with no 3DHST/photometry) [Matharu 2023](https://iopscience.iop.org/article/10.3847/2041-8213/acd1db/pdf)
+~~(++)alternative method found? [Prospector SED fitting](https://arxiv.org/pdf/2404.17629)~~
 
 ~~(++)catalog crossmatching + mass catalog matching from 3D-HST for uma-03 field~~
-
-
-(+) 1D(not spatially resolved) diagram plot (e.g. balmer decrement, EW against mass SFR)
-
-(+) Ha line maps rescaling to correct for NII line emission [paper](https://iopscience.iop.org/article/10.1088/0004-637X/792/1/75/pdf)
 
